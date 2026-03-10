@@ -29,6 +29,8 @@ For more complete role definitions and additional specialized personas (UX/UI De
 - Acceptance Criteria & Definition of Done
 - Risk Register
 - Retrospective notes and action items
+- [Role Interaction Matrix](templates/role-interaction-matrix.md) — RACI table mapping roles to project activities
+- [Role Onboarding and Handoff Checklist](templates/role-onboarding-and-handoff-checklist.md) — steps for onboarding new contributors or transitioning roles
 
 ## Lifecycle (high-level)
 1. Initiation: problem statement, stakeholders, high-level timeline.
