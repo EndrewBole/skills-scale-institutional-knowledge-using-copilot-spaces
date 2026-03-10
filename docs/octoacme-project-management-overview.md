@@ -20,6 +20,8 @@ Applies to all cross-functional projects that deliver product features, services
 - QA/Testing: validate quality and acceptance criteria.
 - Stakeholders: provide inputs and approvals.
 
+For more complete role definitions and additional specialized personas (UX/UI Designer, Data Analyst, Security Engineer, Customer Support / Advocacy, Release Engineer), see docs/octoacme-roles-and-personas.md. For templates to make ownership explicit (Role Interaction Matrix) and to support handoffs or onboarding, see docs/templates/.
+
 ## Key Artifacts
 - Project Charter / One-pager
 - Roadmap and Release Plan
@@ -44,3 +46,4 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- Use docs/templates/role-interaction-matrix.md to clarify who owns which activities; include the completed matrix in kickoff artifacts.
