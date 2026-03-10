@@ -20,6 +20,8 @@ Applies to all cross-functional projects that deliver product features, services
 - QA/Testing: validate quality and acceptance criteria.
 - Stakeholders: provide inputs and approvals.
 
+For the full set of role definitions—including UX/UI Designer, Data Analyst, Security Engineer, Customer Support, and Release Engineer—see [docs/octoacme-roles-and-personas.md](octoacme-roles-and-personas.md).
+
 ## Key Artifacts
 - Project Charter / One-pager
 - Roadmap and Release Plan
@@ -27,6 +29,8 @@ Applies to all cross-functional projects that deliver product features, services
 - Acceptance Criteria & Definition of Done
 - Risk Register
 - Retrospective notes and action items
+- [Role Interaction Matrix](templates/role-interaction-matrix.md) — RACI table mapping roles to project activities
+- [Role Onboarding and Handoff Checklist](templates/role-onboarding-and-handoff-checklist.md) — steps for onboarding new contributors or transitioning roles
 
 ## Lifecycle (high-level)
 1. Initiation: problem statement, stakeholders, high-level timeline.
