@@ -1,53 +1,30 @@
-# Role Interaction Matrix Template (RACI)
+# Role Interaction Matrix (RACI-style)
 
-Use this template to define who is **Responsible**, **Accountable**, **Consulted**, and **Informed** for each key project activity.
+Use this template during kickoff and planning to record who is Responsible, Accountable, Consulted, and Informed for key project activities. Copy this table into your project repo and update the cells for your team.
 
-## RACI Key
+Legend:
+- R = Responsible (does the work)
+- A = Accountable (owns the outcome/decision)
+- C = Consulted (subject-matter input)
+- I = Informed (needs to be kept up-to-date)
 
-| Symbol | Meaning |
-|--------|---------|
-| **R** | **Responsible** — does the work |
-| **A** | **Accountable** — owns the outcome; signs off |
-| **C** | **Consulted** — provides input before or during the activity |
-| **I** | **Informed** — receives updates after decisions are made |
+| Activity / Role | PM | PdM | Developers | QA | UX/UI Designer | Data Analyst | Security Engineer | Release Engineer | Support / Advocacy |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Initiation / One-pager | A | R | I | I | C | C | I | I | I |
+| Planning / Backlog Prioritization | R | A | C | C | C | C | I | I | I |
+| Design / Prototyping | I | C | C | I | R | C | I | I | I |
+| Implementation / Development | I | C | R | C | C | I | C | I | I |
+| QA / Acceptance | I | I | C | R | C | I | I | I | I |
+| Release Planning | R | A | C | C | I | I | I | R | I |
+| Monitoring & Analytics | I | I | C | I | I | R | I | I | C |
+| Security Review & Sign-off | I | I | C | I | I | I | R | I | I |
+| Support Handoff / Knowledge Transfer | R | C | C | I | I | I | I | I | A |
 
-> Each activity must have exactly **one A** (accountable owner). Multiple R/C/I entries are allowed.
+Example: Release Planning
+- Guidance: In the Release Planning row above, the PM is Responsible for coordinating the release activities, the PdM is Accountable for timing and scope decisions, the Release Engineer is Responsible for pipelines and execution, Developers are Consulted for cutover and migrations, and Support is Informed and will own immediate post-release customer communication.
+- Use during planning: review this matrix at kickoff, confirm cells with stakeholders, and attach to the project docs for clarity.
 
----
-
-## How to use this template
-
-1. Copy the matrix below into your Project Charter or planning document.
-2. Replace activity rows with the specific work items relevant to your project.
-3. Fill in R / A / C / I for each role column.
-4. Review the completed matrix during the **Planning Kickoff** meeting so all roles acknowledge their responsibilities.
-5. Update the matrix when team composition or scope changes significantly.
-
----
-
-## Role Interaction Matrix
-
-| Activity | PM | PdM | Developer | QA | UX/UI Designer | Data Analyst | Security Engineer | Customer Support | Release Engineer | Stakeholders |
-|---|---|---|---|---|---|---|---|---|---|---|
-| **Initiation & Charter** | A | C | I | I | I | I | C | I | I | C |
-| **Release Planning** *(example)* | A | C | C | C | C | I | C | C | R | I |
-| **Design & Prototyping** | I | C | C | C | A/R | I | C | C | I | C |
-| **Implementation** | I | C | A/R | C | C | I | C | I | C | I |
-| **QA & Testing** | I | C | R | A/R | C | I | C | I | C | I |
-| **Security Review** | C | C | C | C | I | I | A/R | I | C | I |
-| **Release & Deployment** | C | I | C | C | I | I | C | C | A/R | I |
-| **Customer Communication** | I | C | I | I | I | I | I | A/R | I | C |
-| **Analytics & Metrics Review** | I | C | C | I | I | A/R | I | I | I | C |
-| **Retrospective** | A/R | C | R | R | R | C | C | C | C | I |
-
-> **Release Planning example row explained:**
-> The PM is *Accountable* (owns the release plan and schedule). The Release Engineer is *Responsible* (creates the deployment runbook and pipeline). PdM, Developers, QA, UX/UI Designer, and Security Engineer are *Consulted* for input. Data Analyst, Customer Support, and Stakeholders are *Informed* of the agreed plan.
-
----
-
-## Customising this matrix
-
-- Add or remove rows to match your project's activities.
-- Add or remove role columns to reflect the actual team composition.
-- For large programmes, consider a separate matrix per workstream.
-- Store the completed matrix alongside your [Project Charter](../octoacme-project-initiation.md) and link it from the project board.
+How to use:
+1. Copy this file into your project docs.
+2. Edit roles to match your team (rename/add role columns where needed).
+3. Save the completed matrix as part of the project kickoff artifacts and reference it in planning and release docs.
